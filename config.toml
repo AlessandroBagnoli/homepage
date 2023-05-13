@@ -1,4 +1,4 @@
-baseurl = "http://alessandro.bagno.li/"
+baseurl = "https://alessandro.bagno.li/"
 title = "Alessandro Bagnoli"
 theme = "hugo-coder"
 languagecode = "en"
