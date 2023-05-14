@@ -3,10 +3,9 @@ title = "Alessandro Bagnoli"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
-
 paginate = 20
-
-disqusShortname = "yourdiscussshortname"
+enableEmoji = true
+# disqusShortname = "yourdiscussshortname"
 
 [markup.highlight]
 style = "github-dark"
@@ -16,22 +15,12 @@ style = "github-dark"
   info = "Backend Engineer"
   description = "Alessandro Bagnoli's personal website"
   keywords = "blog,developer,personal"
-  # avatarurl = "images/avatar.jpg"
-  gravatar = "alessandro.bagnoli4@gmail.com"
-
-  favicon_32 = "/img/favicon-32x32.png"
-  favicon_16 = "/img/favicon-16x16.png"
-
-  # since = 2019
-
+  avatarurl = "images/propic_square.jpg"
+  favicon_32 = "images/favicon-32x32.png"
+  favicon_16 = "images/favicon-16x16.png"
   enableTwemoji = true
-
   colorScheme = "auto"
   hidecolorschemetoggle = false
-
-  # customCSS = ["css/custom.css"]
-  # customSCSS = ["scss/custom.scss"]
-  # customJS = ["js/custom.js"]
 
 [taxonomies]
   category = "categories"
@@ -70,12 +59,17 @@ style = "github-dark"
   icon = "fa fa-facebook fa-2x"
   weight = 6
   url = "https://facebook.com/alessandro.bagnoli93/"
+[[params.social]]
+  name = "E-mail"
+  icon = "fa fa-email-bulk-o fa-2x"
+  weight = 7
+  url = "mailto:alessandro@bagno.li"
 
 # Menu links
-[[menu.main]]
-  name = "Blog"
-  weight = 1
-  url  = "posts/"
+#[[menu.main]]
+#  name = "Blog"
+#  weight = 1
+#  url  = "posts/"
 [[menu.main]]
   name = "About"
   weight = 2
