@@ -1,0 +1,1 @@
+docker run --rm -it -v $(pwd):/src -p 1313:1313 -u 1000:1000 klakegg/hugo:ext server -D
